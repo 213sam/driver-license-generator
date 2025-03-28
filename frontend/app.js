@@ -1,6 +1,6 @@
 document.getElementById('generateBtn').addEventListener('click', () => {
     const state = document.getElementById('state').value;
-    const firstName = document.getElementById('firstName').value;
+    const firstName = document.getElementById('sargis').value;
     const lastName = document.getElementById('lastName').value;
 
     fetch('http://localhost:8080/generate', {
